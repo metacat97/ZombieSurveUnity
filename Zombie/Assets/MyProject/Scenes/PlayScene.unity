@@ -158,8 +158,8 @@ MonoBehaviour:
     type: 3}
   zombieDatas:
   - {fileID: 0}
-  - {fileID: 11400000, guid: 032c14ec5d7068f41b0bac7f6b081fa5, type: 2}
-  - {fileID: 11400000, guid: db3e2924ee25e514490b394495e69021, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   spawnPoints:
   - {fileID: 502351760}
   - {fileID: 502351759}
@@ -242,7 +242,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116325374}
-  m_LocalRotation: {x: 0.41852477, y: 0.34116474, z: -0.17335857, w: 0.8236447}
+  m_LocalRotation: {x: 0.41852474, y: 0.34116474, z: -0.17335862, w: 0.82364464}
   m_LocalPosition: {x: -8, y: 16, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -441,7 +441,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839039746}
-  m_LocalRotation: {x: 0.41852477, y: 0.34116474, z: -0.17335857, w: 0.8236447}
+  m_LocalRotation: {x: 0.41852474, y: 0.34116474, z: -0.17335862, w: 0.82364464}
   m_LocalPosition: {x: -8, y: 16, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -572,6 +572,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9938f96621cf91f40bf34a9be39e83fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zombieDatas_default: {fileID: 0}
+  zombieDatas:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &991160541
 Transform:
   m_ObjectHideFlags: 0
@@ -803,6 +808,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1605671543 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1107999300191670, guid: 63226789a2ac34fec8493b064c47bd44,
+    type: 3}
+  m_PrefabInstance: {fileID: 1868934204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1605671548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605671543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51fd6db7f2cbdd4280aed3704f149be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1625878723
 GameObject:
   m_ObjectHideFlags: 0
